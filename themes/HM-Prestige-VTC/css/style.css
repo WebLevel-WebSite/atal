@@ -1,3 +1,23 @@
+html{
+	scroll-behavior: smooth;
+}
+.nostylelink{
+	text-decoration: none; /* Remove underline */
+	color: black;
+}
+.nostylelink:link,.nostylelink:visited, .nostylelink:hover, .nostylelink:active{
+	text-decoration: none;
+
+}
+.nostylelink:hover{
+	color: white;
+}
+button:hover, a:hover{
+	color: black!important;
+}
+header button:hover, a:hover{
+	color: #e2b96d !important;
+}
 .sp1 {
 	background-color: white;
 	border: none;
@@ -127,7 +147,7 @@ a {
 	color:#e2b96d ;
 }
 a:hover {
-	color:#0000FF;
+	color:#fff;
 }
 a.underline {
 	text-decoration:underline;
@@ -204,12 +224,12 @@ a.underline {
 }
 .TopContact a {
 	color: #222;
-	border-bottom:1px solid #0000FF;
+	border-bottom:1px solid #fff;
 }
 .TopContact a:hover {
 	color:#000;
 	text-decoration:none;
-	border-bottom:4px solid #0000FF;
+	border-bottom:4px solid #fff;
 }
 .TopContact a, .TopContact a:hover {
     -webkit-transition: all .35s;
@@ -1135,7 +1155,7 @@ footer p {
 	color:rgba(255,255,255,0.8);
 }
 #back-to-top a:hover {
-	background:#0000FF;
+	background:#fff;
 	color:rgba(255,255,255,0.8);
 }
 
